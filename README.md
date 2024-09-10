@@ -42,8 +42,6 @@ The input consists of an integer `n` (the number of vertices), followed by `n` o
 
 ## Compilation and Execution
 
-To compile and execute your project, ensure the following:
-
 - **Makefile**: The project is compiled with `gcc` version 11.3.0 using the `-O3` optimization flag.
 - To compile: `make -R -r`
 - To run: `./amongus --mode {MST|FASTTSP|OPTTSP} < inputFile.txt`
