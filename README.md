@@ -17,6 +17,9 @@ This project implements various graph algorithms in the context of the game *Amo
 - **Part C: OPTTSP Mode**
   - Calculates the optimal TSP solution using a Branch and Bound (BnB) algorithm.
 
+#### Note: 
+The file executable file amongus.cpp is available for public view. Due to University policy I am unable to publish the file containing the MST and RSP algorithms, though it is available for viewing upon request.
+
 ## Command Line Arguments
 
 ### Required Arguments
