@@ -9,13 +9,13 @@
 This project implements various graph algorithms in the context of the game *Among Us*, where you play as both an Impostor and a Ghost Crewmate. There are three main parts:
 
 - **Part A: Minimum Spanning Tree (MST)**
-  - Devise a vent network (MST) that connects every room while minimizing the total distance.
+  - Devised a vent network (MST) that connects every room while minimizing the total distance.
   
 - **Part B: FASTTSP Mode**
-  - Approximate a solution for the Travelling Salesperson Problem (TSP) to efficiently visit every room and return to the starting location.
+  - Approximates a solution for the Travelling Salesperson Problem (TSP) to efficiently visit every room and return to the starting location.
   
 - **Part C: OPTTSP Mode**
-  - Calculate the optimal TSP solution using a Branch and Bound (BnB) algorithm.
+  - Calculates the optimal TSP solution using a Branch and Bound (BnB) algorithm.
 
 ## Command Line Arguments
 
@@ -37,4 +37,15 @@ This project implements various graph algorithms in the context of the game *Amo
 
 The input consists of an integer `n` (the number of vertices), followed by `n` ordered pairs of integers representing the Cartesian coordinates of the vertices (or rooms).
 
-### Sample Input
+## Compilation and Execution
+
+To compile and execute your project, ensure the following:
+
+- **Makefile**: The project is compiled with `gcc` version 11.3.0 using the `-O3` optimization flag.
+- To compile: `make -R -r`
+- To run: `./amongus --mode {MST|FASTTSP|OPTTSP} < inputFile.txt`
+
+### Sample Execution Command
+$ ./amongus --mode MST < inputFile.txt
+
+
